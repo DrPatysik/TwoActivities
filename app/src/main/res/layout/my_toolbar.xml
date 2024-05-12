@@ -4,9 +4,10 @@
     android:id="@+id/myToolBar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#115270"
+    android:background="#32838E"
     app:title="Messenger"
-    app:titleTextColor="@color/white"
-    android:paddingStart="135dp">
+    app:titleMarginStart="100dp"
+    app:titleTextAppearance="@style/TextAppearance.AppCompat.Display2"
+    app:titleTextColor="@color/white">
 
 </androidx.appcompat.widget.Toolbar>
